@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eroshin interactive CV" />
+  <title>Eroshin interactive CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div class="content-box-question">
+    <ul>
+      <li>
+        <section class="cathegory_fields_blue">
+          <!-- <fieldset> -->
+          <label for "username"> Nickname </label>
+          <input type="text" id="username" name="user" placeholder="Enter Your Nickname" />
+        </section>
+      </li>
+      <li>
+        <section class="cathegory_fields_blue"><label for "email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your E-Mail" />
+        </section>
+      </li>
+      <li>
+        <section class="cathegory_fields_blue"><label for "date">Birth date</label>
+          <input type="date" id="date" name="date" />
+        </section>
+      </li>
+      <li>
+        <section class="cathegory_fields_blue"><label for "file">File</label>
+          <input type="file" id="file" name="file" />
+        </section>
+      </li>
+      <li>
+        <section class="cathegory_fields_blue">
+          <label for="area">Message</label>
+          <textarea maxlength="30" id="area" placeholder="Enter your message here (Max. 30 symbols)"></textarea>
+        </section>
+      </li>
+      <li>
+
+        <section class="cathegory_fields_blue"><label>Choose where to send:</label>
+
+          <label for "checkbox"> <input type="checkbox" id="one" name="selectone" /> <img class="icon"
+              src="icons/gmail.png" /> </label>
+
+          <label for "checkbox"> <input type="checkbox" id="two" name="selectone" /><img class="icon"
+             src="icons/whatsapp.png" /></label>
+
+          <label for "checkbox"> <input type="checkbox" id="three" name="selectone" /><img class="icon"
+              src="icons/telegram.png" /></label>
+        </section>
+      </li>
+    </ul>
+
+    <li>
+      <button class="send-button" type="submit">
+        SEND
+      </button>
+    </li>
+
+    <!--password
+                <label for "password"> Pass </label>
+                <input type="password" id="password" name = "user" placeholder="Выберите пункт"/>
+-->
+
+    <!--to do:
+1. add file type/types and size limitations
+2. add textbox message 
+2. sent message to email (vanidos@gmail.com)
+3. add logos of telegramd and whatsapp - done
+-->
+    <!-- </fieldset> -->
+
+    </ul>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
