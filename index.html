@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Eroshin interactive CV" />
   <title>Eroshin interactive CV</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,74 +15,33 @@
 </head>
 
 <body>
-  <div class="page">
-    <aside>
-      <img class="img-profile" src="icons/21.jpg">
+  <div class="main">
+    <aside class="aside">
+      <img class="img-profile" src="icons/21.jpg" alt="profile_image">
+      
       <div class="aside-text">
-        <h2>
-          <div class="side-font-color">
-            <section>
-              Контакты:
-            </section>
-            <section>
-              <b> E: vanidos@gmail.com
-            </section>
-            <section>
-              <b> C: +7-915-320-74-80
-            </section>
-          </div>
-        </h2>
 
-        <h2>Hard skills</h2>
+        <ul>
+          <li class="list-header"> Контакты:</li>
+          <li> E: vanidos@gmail.com</li>
+          <li> C: +7-915-320-74-80</li>
+        </ul>     
 
-        <div>
-          <p class="font_color">
-            <span style="color: orangered">•</span> HTML5
-          </p>
-          <p class="font_color"><span style="color: orangered">•</span> SCSS</p>
-
-          <p class="font_color"><span style="color: orangered">•</span> GIT</p>
-
-
-          
-          <p class="font_color"><span style="color: orangered">•</span> BootStrap</p>
-          <p class="font_color"><span style="color: orangered">•</span> Tailwind</p>
-
-          <p class="font_color">
-            <span style="color: orangered">•</span> JavaScript
-          </p>
-
-          <p class="font_color">
-            <span style="color: orangered">•</span> React
-          </p>  
-          
-                  <p class="font_color">
-            <span style="color: orangered">•</span> Vue
-          </p>
-
-          <p class="font_color"><span style="color: orangered">•</span> Figma</p>
-
-          <p class="font_color">
-            <span style="color: orangered">•</span> Java Core
-          </p>
-
-
-          <p class="font_color">
-            <span style="color: orangered">•</span> English - C1
-          </p>
-          <h2>Soft skills</h2>
-
-          <p class="font_color">
-            <span style="color: orangered">•</span> Teamwork
-          </p>
-
-          <section></section>
-        </div>
-      </div>
-
-      <ul class="nav-vertical">
-
-
+        <ul>
+          <li class="list-header">Hard skills</li>
+          <li>• HTML5</li>
+          <li>• SCSS</li>
+          <li>• GIT</li>
+          <li>• BootStrap</li>
+          <li>• JavaScript</li>
+          <li>• React</li>
+          <li>• Figma Basics</li>
+          <li>• Java Core</li>
+          <li>• English - C1</li>
+          <li>• Teamwork</li>
+        </ul>
+    </div>      
+      <!-- <ul class="nav-vertical">
         <li>
           <button-side class="send-button-side" type="submit">
             <a href="contactbox.htm" target="_blank">
@@ -90,237 +49,192 @@
           </button-side>
           </a>
         </li>
-
         <li>
           <button-side class="send-button-side" type="submit">
             <a class="button-side" href="tel:+7-915-320-74-80"> Позвонить мне </a>
           </button-side>
         </li>
-
-        <!-- <li class="disabled">
-            <button-side class="send-button-side" type="submit">
-							<a href="videobox.htm" target="_blank">
-								Play Video
-          		</a>
-            </button-side>
-						</li>
-				
-						<li class="disabled">
-             <button-side class="send-button-side" type="submit">
-							<a href="videobox.htm" target="_blank">
-								Play My Game (TBA!!)
-							</a>
-              </button-side>
-						</li> -->
-
-      </ul>
+      </ul> -->
     </aside>
 
-    <main>
-      <section>
-        <headline>
+    <article class="article">
+        <headline class="headline">
           Джуниор FrontEnd разработчик / Стражёр
         </headline>
-      </section>
 
-      <section>
-        <headline>
+        <headline class="headline">
           Иван Ерошин
         </headline>
 
-        <span>
           <p>Локация: Москва</p>
-          <p>Год рождения: 1983</p>
           <p>Место работы: офис / гибрид</p>
           <p>Открыт к релокации</p>
-
-          <div>
-            <span>
-              <p>В поисках стажировки или работы разработчиком на JavaScript</p>
-                       </span>
-            <li>
-              <p>
-                               <span>     <a href="https://github.com/vanidos"> github.com/vanidos</a>
-                </span>
-                        <p>
-            <li>
-
-
-      
+          <p>В поисках стажировки или работы FrontEnd разработчиком</p>
+          <p><a href="https://github.com/vanidos"> github.com/vanidos</a></p>
+     
+      <section class="headline">
+          Pet-проекты
       </section>
 
-      <section>
-        <headline>
-          Проекты
-        </headline>
-      </section>
-
-      <section>
-        <div class="ol_settings">
+      <section class="projects">
           <ol>
-            <li>
-              <p>
-                <a href="https://tpg-legal.com/en/">https://tpg-legal.com/en/ </a>
-                </a>
-                <span> ......................................... </span>
-                <span> [ Wordpress, HTML5, CSS ] </span>
-              </p>
+            <li class="projects__list">
+              <a href="https://tpg-legal.com/en/">https://tpg-legal.com/en/ </a>
+                <span>[ Wordpress]</span>
+            </li>
               
-              <p>
-                <a href="https://my-cv-v2.vercel.app/">https://my-cv-v2.vercel.app/ </a>
-                </a>
-                <span> ............................................................... </span>
-                <span> [ HTML5, CSS ] </span>
-              </p> 
-              
-              <p>
-                <a href="https://playitloudbooking.com//">https://playitloudbooking.com// </a>
-                </a>
-                <span> .............................................. </span>
-                <span> [ HTML5, CSS, JS ] </span>
-              </p>
+            <li class="projects__list">
+                <a href="https://vanidos.github.io/Rangi_test_Eroshin/">https://vanidos.github.io/Rangi_test_Eroshin/ </a>
+              <span>[ HTML5, CSS, JS, Адаптив ] </span>
+            </li>
 
-
-              <p>
+            <li class="projects__list">
                 <a href="https://github.com/vanidos/ABank_test_task"> https://github.com/vanidos/ABank_test_task</a>
-                <span> ..................... </span>
-                <span> [ JAVA, Spring ] </span>
-              <p>
+                <span>[ JAVA, Spring ] </span>
+            </li>
+              
+            <li class="projects__list">
+                <a href="https://my-cv-v2.vercel.app/">https://my-cv-v2.vercel.app/ </a>
+                <span>[ HTML5, CSS ]</span>
+            </li> 
 
-           
-
-
-          </ol>
+            <li class="projects__list">
+              <a href="https://mail-iq-final.vercel.app/">https://mail-iq-final.vercel.app/ </a>
+              <span>[ HTML5, CSS, BootStrap ]</span>
+          </li>             
+          <li class="projects__list">
+              <a href="https://persp-test.vercel.app/">https://persp-test.vercel.app/ </a>
+              <span>[ HTML5, CSS ]</span>
+          </li> 
+        </ol>
       </section>
 
-      <section>
-        <headline>
+      <section class="headline">
           Опыт работы
         </headline>
       </section>
 
 
       <!--Company 1 -->
-      <section>
-        <smallheadlines>
+      <section class="skills"> 
+        <p class="smallheadlines">
           Web - Разработчик
-        </smallheadlines>
+        </p>
 
-        <dates>
+        <p class="dates">
           Сентябрь 2021 - по текущее время
-        </dates>
+        </p>
         <ul>
           <li>
-            <p> TPG-Legal </p>
+            TPG-Legal
           </li>  
               <li>
-            <p> Freelance </p>
+            Freelance
           </li>
           <li>
-            <p> Участие в хакатонах</p>
+            Участие в хакатонах
           </li>
         </ul>
       </section>
 
       <!--Company 2 -->
 
-      <section>
-        <smallheadlines>
+      <section class="skills">
+        <p class="smallheadlines">
           Менеджер по гарантии и тех.поддержке | Ферронордик Машины
-        </smallheadlines>
-        <dates>
+        </p>
+        <p class="dates">
           Март 2011 - по текущее время | Москва
-        </dates>
+        </p>
 
         <ul>
           <li>
-            <p> Организация и контроль бизнес процессов </p>
+            Организация и контроль бизнес процессов
           </li>
           <li>
-            <p> Отладка CRM систем</p>
+           Отладка CRM систем
           </li>
           <li>
-            <p> Обучение и аудит</p>
+             Обучение и аудит
           </li>
         </ul>
 
         <!--Company 3 -->
 
-        <smallheadlines>
+        <p class="smallheadlines">
           Сервис Менеджер | Цеппелин Русланд
-        </smallheadlines>
+        </p>
 
-        <dates>
+        <p class="dates">
           Июнь 2006 – Февраль 2011 | Москва
-        </dates>
+        </p>
 
         <ul>
           <li>
-            <p> Организация закупки и продажи запчастей</p>
+              Организация закупки и продажи запчастей
           </li>
           <li>
-            <p> Управление сервисом</p>
+              Управление сервисом
           </li>
           <li>
-            <p> Управление гарантией и тех.поддержкой</p>
+              Управление гарантией и тех.поддержкой
           </li>
         </ul>
       </section>
 
       <!--Education -->
 
-      <section>
-        <headline>
+      <section class="headline">
           Образование
-        </headline>
-        <smallheadlines> Московский Горный Университет</smallheadlines>
-        <dates>Сентябрь 2000 - Июнь 2006 | Москва </dates>
+        </section>
+        <p class="smallheadlines"> Московский Горный Университет</p>
+        <p class="dates">Сентябрь 2000 - Июнь 2006 | Москва </p>
 
         <ul>
           <li>
-            <p> Высшее техническое / Магистр</p>
+             Высшее техническое / Магистр
           </li>
         </ul>
       </section>
 
       <!--Hobbies -->
+
       <section>
-        <headline>
+        <p class="headline">
           Хобби
-        </headline>
+        </p>
 
         <ul>
           <li>
-            <p><span> Скайдайв </span></p>
+           Скайдайв
           </li>
           <li>
-            <p><span> Играю на гитаре в инди-рок группе </span></p>
+               Играю на гитаре в инди-рок группе 
           </li>
         </ul>
       </section>
+    </article>
 
-      <footer class="footer_content">
-        <div>
-          <a class="cathegory" href="#top"> К началу</a>
-        </div>
-        <div class="social-network-items">
-          <li> <a href="https://www.linkedin.com/in/ivan-eroshin-73330118/ " target="_blank">
-              <img class="icon" src="icons/linkedin.png" />
-            </a></li>
-          <li> <a href="https://www.instagram.com/vanidos/" area-label="Follow me on Instagram" target="_blank">
-              <img class="icon" src="icons/instagram.png" />
-            </a></li>
-          <li> <a href="https://www.facebook.com/profile.php?id=100070303831549" target="_blank">
-              <img class="icon" src="icons/facebook.png" />
-            </a></li>
-        </div>
-      </footer>
-    </main>
+    <footer class="footer">
+      <div>
+        <a class="button-return" href="#top"> К началу</a>
+      </div>
+      <div class="social-network-items">
+        <li> <a href="https://www.linkedin.com/in/ivan-eroshin-73330118/ " target="_blank">
+            <img class="icon" src="icons/linkedin.png" />
+          </a></li>
+        <li> <a href="https://www.instagram.com/vanidos/" area-label="Follow me on Instagram" target="_blank">
+            <img class="icon" src="icons/instagram.png" />
+          </a></li>
+        <li> <a href="https://www.facebook.com/profile.php?id=100070303831549" target="_blank">
+            <img class="icon" src="icons/facebook.png" />
+          </a></li>
+      </div>
+    </footer>
   </div>
-
+    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
